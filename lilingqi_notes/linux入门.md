@@ -1572,7 +1572,7 @@ firewall-cmd --list-ports  # 只看端口信息
  
 # 开启端口
 开端口命令：firewall-cmd --zone=public --add-port=80/tcp --permanent
-重启防火墙：systemctl restart firewalld.service
+重启防火墙：e
  
 命令含义：
 --zone #作用域
